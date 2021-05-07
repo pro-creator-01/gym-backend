@@ -17,4 +17,4 @@ const schema = new Schema({
     lastPaymentDate: Date,
 })
 
-module.exports = mongoose.model('User', schema)
+module.exports = mongoose.model('user', schema)
